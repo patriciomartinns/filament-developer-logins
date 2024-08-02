@@ -1,11 +1,11 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins\Tests\Feature;
+namespace Patriciomartins\FilamentDeveloperLogins\Tests\Feature;
 
-use DutchCodingCompany\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
-use DutchCodingCompany\FilamentDeveloperLogins\Livewire\MenuLogins;
-use DutchCodingCompany\FilamentDeveloperLogins\Tests\Fixtures\TestUser;
-use DutchCodingCompany\FilamentDeveloperLogins\Tests\TestCase;
+use Patriciomartins\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
+use Patriciomartins\FilamentDeveloperLogins\Livewire\MenuLogins;
+use Patriciomartins\FilamentDeveloperLogins\Tests\Fixtures\TestUser;
+use Patriciomartins\FilamentDeveloperLogins\Tests\TestCase;
 use Filament\Facades\Filament;
 use Filament\Pages\Dashboard;
 use Filament\Panel;
@@ -60,7 +60,7 @@ final class MenuLoginsTest extends TestCase
         $authenticatedUser = TestUser::factory()->create();
 
         TestUser::factory()->create([
-            'email' => 'developer@dutchcodingcompany.com',
+            'email' => 'developer@patriciomartins.com',
             'is_admin' => false,
         ]);
 
@@ -69,7 +69,7 @@ final class MenuLoginsTest extends TestCase
 
         Livewire::actingAs($authenticatedUser)
             ->test(MenuLogins::class)
-            ->call('loginAs', 'developer@dutchcodingcompany.com')
+            ->call('loginAs', 'developer@patriciomartins.com')
             ->assertForbidden();
 
         FilamentDeveloperLoginsPlugin::current()
@@ -78,7 +78,7 @@ final class MenuLoginsTest extends TestCase
 
         Livewire::actingAs($authenticatedUser)
             ->test(MenuLogins::class)
-            ->call('loginAs', 'developer@dutchcodingcompany.com')
+            ->call('loginAs', 'developer@patriciomartins.com')
             ->assertForbidden();
     }
 

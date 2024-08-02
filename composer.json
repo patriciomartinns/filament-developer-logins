@@ -1,22 +1,22 @@
 {
-    "name": "dutchcodingcompany/filament-developer-logins",
+    "name": "patriciomartins/filament-developer-logins",
     "description": "Add buttons to the login page of Filament to login as a specific user.",
     "keywords": [
-        "dutchcodingcompany",
+        "patriciomartins",
         "laravel",
         "filament",
         "filament-developer-logins"
     ],
-    "homepage": "https://github.com/dutchcodingcompany/filament-developer-logins",
+    "homepage": "https://github.com/patriciomartins/filament-developer-logins",
     "support": {
-        "issues": "https://github.com/dutchcodingcompany/filament-developer-logins/issues",
-        "source": "https://github.com/dutchcodingcompany/filament-developer-logins"
+        "issues": "https://github.com/patriciomartins/filament-developer-logins/issues",
+        "source": "https://github.com/patriciomartins/filament-developer-logins"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Bram Raaijmakers",
-            "email": "bram@dutchcodingcompany.com",
+            "email": "bram@patriciomartins.com",
             "role": "Developer"
         }
     ],
@@ -30,19 +30,18 @@
         "larastan/larastan": "^2.9",
         "nunomaduro/collision": "^7.0|^8.1",
         "orchestra/testbench": "^8.0|^9.0",
-        "phpunit/phpunit": "^10.0",
-        "spatie/laravel-ray": "^1.26"
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "psr-4": {
-            "DutchCodingCompany\\FilamentDeveloperLogins\\": "src",
-            "DutchCodingCompany\\FilamentDeveloperLogins\\Tests\\": "tests",
-            "DutchCodingCompany\\FilamentDeveloperLogins\\Database\\Factories\\": "database/factories"
+            "Patriciomartins\\FilamentDeveloperLogins\\": "src",
+            "Patriciomartins\\FilamentDeveloperLogins\\Tests\\": "tests",
+            "Patriciomartins\\FilamentDeveloperLogins\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DutchCodingCompany\\FilamentDeveloperLogins\\Tests\\": "tests"
+            "Patriciomartins\\FilamentDeveloperLogins\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -59,7 +58,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DutchCodingCompany\\FilamentDeveloperLogins\\FilamentDeveloperLoginsServiceProvider"
+                "Patriciomartins\\FilamentDeveloperLogins\\FilamentDeveloperLoginsServiceProvider"
             ]
         }
     },

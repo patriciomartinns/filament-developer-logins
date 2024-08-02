@@ -1,11 +1,11 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins\Facades;
+namespace Patriciomartins\FilamentDeveloperLogins\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @mixin \DutchCodingCompany\FilamentDeveloperLogins\FilamentDevelopersLogin
+ * @mixin \Patriciomartins\FilamentDeveloperLogins\FilamentDevelopersLogin
  */
 class FilamentDevelopersLogin extends Facade
 {

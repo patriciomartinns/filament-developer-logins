@@ -1,10 +1,10 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins;
+namespace Patriciomartins\FilamentDeveloperLogins;
 
 use App\Models\User;
 use Closure;
-use DutchCodingCompany\FilamentDeveloperLogins\Exceptions\ImplementationException;
+use Patriciomartins\FilamentDeveloperLogins\Exceptions\ImplementationException;
 use Filament\Contracts\Plugin;
 use Filament\Facades\Filament;
 use Filament\Panel;

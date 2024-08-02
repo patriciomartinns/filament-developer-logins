@@ -1,11 +1,11 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins\Tests;
+namespace Patriciomartins\FilamentDeveloperLogins\Tests;
 
-use DutchCodingCompany\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
-use DutchCodingCompany\FilamentDeveloperLogins\FilamentDeveloperLoginsServiceProvider;
-use DutchCodingCompany\FilamentDeveloperLogins\Http\Controllers\DeveloperLoginsController;
-use DutchCodingCompany\FilamentDeveloperLogins\Tests\Fixtures\TestUser;
+use Patriciomartins\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
+use Patriciomartins\FilamentDeveloperLogins\FilamentDeveloperLoginsServiceProvider;
+use Patriciomartins\FilamentDeveloperLogins\Http\Controllers\DeveloperLoginsController;
+use Patriciomartins\FilamentDeveloperLogins\Tests\Fixtures\TestUser;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\Facades\Filament;
 use Filament\FilamentServiceProvider;
@@ -32,7 +32,7 @@ class TestCase extends Orchestra
         Factory::guessFactoryNamesUsing(
             fn (
                 string $modelName,
-            ) => 'DutchCodingCompany\\FilamentDeveloperLogins\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            ) => 'Patriciomartins\\FilamentDeveloperLogins\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
@@ -52,7 +52,7 @@ class TestCase extends Orchestra
                     FilamentDeveloperLoginsPlugin::make()
                         ->enabled()
                         ->users([
-                            'Administrator' => 'developer@dutchcodingcompany.com',
+                            'Administrator' => 'developer@patriciomartins.com',
                         ])
                         ->modelClass(TestUser::class),
                 ]),

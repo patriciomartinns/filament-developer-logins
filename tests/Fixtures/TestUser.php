@@ -1,6 +1,6 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins\Tests\Fixtures;
+namespace Patriciomartins\FilamentDeveloperLogins\Tests\Fixtures;
 
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Panel;

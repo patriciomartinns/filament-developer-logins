@@ -1,9 +1,9 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins\Livewire;
+namespace Patriciomartins\FilamentDeveloperLogins\Livewire;
 
-use DutchCodingCompany\FilamentDeveloperLogins\Facades\FilamentDevelopersLogin;
-use DutchCodingCompany\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
+use Patriciomartins\FilamentDeveloperLogins\Facades\FilamentDevelopersLogin;
+use Patriciomartins\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
 use Filament\Facades\Filament;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\View\View;

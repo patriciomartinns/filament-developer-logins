@@ -1,6 +1,6 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins\Exceptions;
+namespace Patriciomartins\FilamentDeveloperLogins\Exceptions;
 
 class ImplementationException extends \Exception
 {

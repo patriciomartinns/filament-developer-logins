@@ -11,5 +11,5 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within this plugin, please email Dutch Coding Company via [server@dutchcodingcompany.com](mailto:server@dutchcodingcompany.com).
+If you discover a security vulnerability within this plugin, please email Dutch Coding Company via [server@patriciomartins.com](mailto:server@patriciomartins.com).
 All security vulnerabilities will be promptly addressed.

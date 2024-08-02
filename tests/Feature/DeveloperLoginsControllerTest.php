@@ -1,10 +1,10 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins\Tests\Feature;
+namespace Patriciomartins\FilamentDeveloperLogins\Tests\Feature;
 
-use DutchCodingCompany\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
-use DutchCodingCompany\FilamentDeveloperLogins\Tests\Fixtures\TestUser;
-use DutchCodingCompany\FilamentDeveloperLogins\Tests\TestCase;
+use Patriciomartins\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
+use Patriciomartins\FilamentDeveloperLogins\Tests\Fixtures\TestUser;
+use Patriciomartins\FilamentDeveloperLogins\Tests\TestCase;
 use Filament\Facades\Filament;
 
 final class DeveloperLoginsControllerTest extends TestCase
@@ -12,7 +12,7 @@ final class DeveloperLoginsControllerTest extends TestCase
     public function test_user_can_login_with_defined_users(): void
     {
         $user = TestUser::factory()->create([
-            'email' => 'developer@dutchcodingcompany.com',
+            'email' => 'developer@patriciomartins.com',
         ]);
 
         $this->post(route('filament-developer-logins.login-as'), [
@@ -27,7 +27,7 @@ final class DeveloperLoginsControllerTest extends TestCase
     public function test_if_user_is_not_allowed_to_login_on_the_panel_the_user_is_logged_out(): void
     {
         $user = TestUser::factory()->create([
-            'email' => 'developer@dutchcodingcompany.com',
+            'email' => 'developer@patriciomartins.com',
             'is_admin' => false,
         ]);
 
@@ -55,7 +55,7 @@ final class DeveloperLoginsControllerTest extends TestCase
             ->enabled(false);
 
         $user = TestUser::factory()->create([
-            'email' => 'developer@dutchcodingcompany.com',
+            'email' => 'developer@patriciomartins.com',
         ]);
 
         $this->post(route('filament-developer-logins.login-as'), [

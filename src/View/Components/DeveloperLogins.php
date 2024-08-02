@@ -1,8 +1,8 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins\View\Components;
+namespace Patriciomartins\FilamentDeveloperLogins\View\Components;
 
-use DutchCodingCompany\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
+use Patriciomartins\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 
