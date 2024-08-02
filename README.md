@@ -1,20 +1,20 @@
 # Filament Developer Logins
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/dutchcodingcompany/filament-developer-logins.svg?style=flat-square)](https://packagist.org/packages/dutchcodingcompany/filament-developer-logins)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/dutchcodingcompany/filament-developer-logins/run-test.yml?branch=main&label=tests&style=flat-square)](https://github.com/dutchcodingcompany/filament-developer-logins/actions?query=workflow%3Arun-test+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/dutchcodingcompany/filament-developer-logins/php-cs-fixer.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/dutchcodingcompany/filament-developer-logins/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/dutchcodingcompany/filament-developer-logins.svg?style=flat-square)](https://packagist.org/packages/dutchcodingcompany/filament-developer-logins)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/patriciomartins/filament-developer-logins.svg?style=flat-square)](https://packagist.org/packages/patriciomartins/filament-developer-logins)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/patriciomartins/filament-developer-logins/run-test.yml?branch=main&label=tests&style=flat-square)](https://github.com/patriciomartins/filament-developer-logins/actions?query=workflow%3Arun-test+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/patriciomartins/filament-developer-logins/php-cs-fixer.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/patriciomartins/filament-developer-logins/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/patriciomartins/filament-developer-logins.svg?style=flat-square)](https://packagist.org/packages/patriciomartins/filament-developer-logins)
 
 This plugin allows you to enable one-click logins for your local Filament panels, which is useful when developing a Filament project with multiple users and various roles.
 
-![example-screenshot.png](https://raw.githubusercontent.com/DutchCodingCompany/filament-developer-logins/main/docs-assets/screenshots/example-screenshot.png)
+![example-screenshot.png](https://raw.githubusercontent.com/Patriciomartins/filament-developer-logins/main/docs-assets/screenshots/example-screenshot.png)
 
 ## Installation
 
 You can install the package via composer.
 
 ```bash
-composer require dutchcodingcompany/filament-developer-logins
+composer require patriciomartins/filament-developer-logins
 ```
 
 ## Usage
@@ -62,7 +62,7 @@ FilamentDeveloperLoginsPlugin::make()
     ->switchable(false) // This also accepts a closure.
 ```
 
-![switchable-screenshot.png](https://raw.githubusercontent.com/DutchCodingCompany/filament-developer-logins/main/docs-assets/screenshots/switchable-screenshot.png)
+![switchable-screenshot.png](https://raw.githubusercontent.com/Patriciomartins/filament-developer-logins/main/docs-assets/screenshots/switchable-screenshot.png)
 
 ### column()
 

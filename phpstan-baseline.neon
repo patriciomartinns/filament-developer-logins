@@ -1,7 +1,7 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Class DutchCodingCompany\\\\FilamentDeveloperLogins\\\\Database\\\\Factories\\\\TestUserFactory extends generic class Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory but does not specify its types\\: TModel$#"
+			message: "#^Class Patriciomartins\\\\FilamentDeveloperLogins\\\\Database\\\\Factories\\\\TestUserFactory extends generic class Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory but does not specify its types\\: TModel$#"
 			count: 1
 			path: database/factories/TestUserFactory.php
 
@@ -21,7 +21,7 @@ parameters:
 			path: tests/Feature/MenuLoginsTest.php
 
 		-
-			message: "#^Access to an undefined property DutchCodingCompany\\\\FilamentDeveloperLogins\\\\Tests\\\\Fixtures\\\\TestUser\\:\\:\\$is_admin\\.$#"
+			message: "#^Access to an undefined property Patriciomartins\\\\FilamentDeveloperLogins\\\\Tests\\\\Fixtures\\\\TestUser\\:\\:\\$is_admin\\.$#"
 			count: 1
 			path: tests/Fixtures/TestUser.php
 

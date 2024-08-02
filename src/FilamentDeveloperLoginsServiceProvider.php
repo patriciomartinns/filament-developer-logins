@@ -1,9 +1,9 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins;
+namespace Patriciomartins\FilamentDeveloperLogins;
 
-use DutchCodingCompany\FilamentDeveloperLogins\Livewire\MenuLogins;
-use DutchCodingCompany\FilamentDeveloperLogins\View\Components\DeveloperLogins;
+use Patriciomartins\FilamentDeveloperLogins\Livewire\MenuLogins;
+use Patriciomartins\FilamentDeveloperLogins\View\Components\DeveloperLogins;
 use Filament\Facades\Filament;
 use Filament\Panel;
 use Filament\Support\Concerns\EvaluatesClosures;
@@ -36,7 +36,7 @@ class FilamentDeveloperLoginsServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
-        Blade::componentNamespace('DutchCodingCompany\FilamentDeveloperLogins\View\Components', 'filament-developer-logins');
+        Blade::componentNamespace('Patriciomartins\FilamentDeveloperLogins\View\Components', 'filament-developer-logins');
         Blade::component('developer-logins', DeveloperLogins::class);
         Livewire::component('menu-logins', MenuLogins::class);
 

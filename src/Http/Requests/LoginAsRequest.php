@@ -1,8 +1,8 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins\Http\Requests;
+namespace Patriciomartins\FilamentDeveloperLogins\Http\Requests;
 
-use DutchCodingCompany\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
+use Patriciomartins\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
 use Illuminate\Foundation\Http\FormRequest;
 
 class LoginAsRequest extends FormRequest

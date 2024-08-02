@@ -1,8 +1,8 @@
 <?php
 
-namespace DutchCodingCompany\FilamentDeveloperLogins;
+namespace Patriciomartins\FilamentDeveloperLogins;
 
-use DutchCodingCompany\FilamentDeveloperLogins\Exceptions\ImplementationException;
+use Patriciomartins\FilamentDeveloperLogins\Exceptions\ImplementationException;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Panel;
 use Illuminate\Http\RedirectResponse;

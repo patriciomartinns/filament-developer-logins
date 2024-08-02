@@ -1,10 +1,10 @@
 # Changelog
 
-All notable changes to `dutchcodingcompany/developer-logins` will be documented in this file.
+All notable changes to `patriciomartins/developer-logins` will be documented in this file.
 
 ## 1.2.1 - 2024-06-19
 
-- Bugfix: Plugin issue with multiple panels by @ainesophaur in https://github.com/DutchCodingCompany/filament-developer-logins/pull/9
+- Bugfix: Plugin issue with multiple panels by @ainesophaur in https://github.com/Patriciomartins/filament-developer-logins/pull/9
 
 ## 1.2.0 - 2024-05-28
 
