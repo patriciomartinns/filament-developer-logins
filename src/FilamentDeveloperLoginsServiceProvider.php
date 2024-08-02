@@ -18,7 +18,7 @@ class FilamentDeveloperLoginsServiceProvider extends PackageServiceProvider
 {
     use EvaluatesClosures;
 
-    public static string $viewNamespace = 'skeleton';
+    public static string $viewNamespace = 'filament-developer-logins';
 
     public function configurePackage(Package $package): void
     {
